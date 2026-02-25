@@ -1,1 +1,61 @@
+PROYECTO FINAL QA
+Alumna: Belén Fn
+Aplicación: Instagram Lite
+
+ÉPICA
+Gestión de funcionalidades básicas de Instagram Lite.
+
+JUSTIFICACIÓN
 He seleccionado Instagram Lite porque es una aplicación que he usado ampliamente que permite compartir fotos, dar likes y comentar, lo cual me permitirá evaluar funcionalidades críticas como autenticación, publicación y notificaciones.
+
+ALCANCE DEL TESTING
+
+Se probará:
+
+Registro de usuario
+Inicio de sesión
+Edición de perfil
+
+No se probará:
+
+Integración con otras apps
+Pruebas de rendimiento
+Pruebas de seguridad avanzadas
+
+HU-01 – Registro de usuario
+
+Como usuario nuevo
+Quiero registrarme con email y contraseña
+Para poder acceder a la aplicación.
+
+Criterios de aceptación:
+
+Validar formato de email.
+Contraseña mínimo 8 caracteres.
+Mostrar error si faltan campos.
+Registro exitoso con datos válidos.
+
+HU-02 – Inicio de sesión
+
+Como usuario registrado
+Quiero iniciar sesión
+Para acceder a mi perfil.
+
+Criterios de aceptación:
+
+Permitir acceso con credenciales válidas.
+Mostrar error si contraseña incorrecta.
+No permitir acceso con campos vacíos.
+
+HU-03 – Edición de perfil
+
+Como usuario autenticado
+Quiero editar mi información personal
+Para mantener actualizados mis datos.
+
+Criterios de aceptación:
+
+Permitir modificar nombre.
+Permitir cambiar foto de perfil.
+Guardar cambios correctamente.
+Mostrar mensaje de confirmación.
