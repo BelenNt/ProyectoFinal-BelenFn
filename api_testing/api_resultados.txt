@@ -1,0 +1,5 @@
+Se ejecutaron 10 casos de prueba sobre FakeStore API.
+9 casos fueron exitosos.
+1 caso negativo validó correctamente el manejo de error.
+La API responde con código 200 en los casos positivos.
+La estructura JSON es correcta.
